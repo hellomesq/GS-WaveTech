@@ -287,3 +287,83 @@ h3{
 #dev:hover{
     color: var(--flag);
 }
+
+/* PÁGINA DOS INTEGRANTES */
+
+.title__int{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.title__int h2{
+  background: linear-gradient(
+      90deg,
+      #231838 0%,
+      #534274 13%,
+      #322846 27.5%,
+      #2e2541 43.5%,
+      #492d39 58.5%,
+      #653631 76%,
+      #9b4620 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; 
+  max-width: 551px;
+  font-size: 25px;
+  
+}
+
+.title__int a{
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
+}
+
+#teste{
+  font-size: 14px;
+  color: black;
+}
+
+.container-profile {
+  max-width: 538px;
+  padding-bottom: 27px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-column {
+  display: flex;
+  gap: 20px;
+}
+
+.profile-image, .avatar {
+  object-fit: cover;
+  width: 140px;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.details {
+  font-size: 16px;
+  color: #000;
+  margin-top: 10px;
+}
+
+.details, .rm{
+  padding: 15px 0;
+}
+
+.details, .github-link{
+  text-decoration: none;
+  color: black;
+}
+
