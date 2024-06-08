@@ -24,32 +24,60 @@
       <div class="menu-content"> 
         <ul class="nav-list">
           <div class="app-header-left">
-            <a href="../cadastroUsuario/cadastro.html" class="app-icon"><i class="fa-solid fa-user" style="color: #000000; font-size: 30px;"></i><br />ENTRAR</a>
+            <a href="../cadastroUsuario/cadastro.html" class="app-icon"><i class="fa-solid fa-user" style="color: #000000; font-size: 30px;"></i><br /><br>ENTRAR</a>
           </div>
             <li class="menu-item" id="indicador">
               <i class="fa fa-table" class="menu-icon" alt="Ícone do Dashboard"></i><a href="../cadastroUsuario/login.html" class="menu-link">Dashboard</a>
             </li>
             <li class="menu-item">
-              <i class="fa-solid fa-chart-simple" class="menu-icon" alt="Ícone da análise"></i><a href="../cadastroUsuario/login.html" class="menu-link">Análise</a>
+              <i class="fa-solid fa-chart-simple" class="menu-icon" alt="Ícone da análise"></i><a href="analise.html" class="menu-link">Análise</a>
             </li>
             <li class="menu-item">
-              <i class="fa-brands fa-telegram" class="menu-icon" alt="Ícone do chat"></i><a href="../cadastroUsuario/login.html" class="menu-link">Chat</a>
+              <i class="fa-brands fa-telegram" class="menu-icon" alt="Ícone do chat"></i><a href="../chatbot/chat.html" class="menu-link">Chat</a>
             </li>
             <li class="menu-item">
-              <i class="fa-solid fa-flag" class="menu-icon" alt="Ícone do relatório"></i></i><a href="../cadastroUsuario/login.html" class="menu-link">Relatório</a>
+              <i class="fa-solid fa-flag" class="menu-icon" alt="Ícone do relatório"></i></i><a href="../relatoUsuario/semCad.html" class="menu-link">Relatório</a>
             </li>
             <li class="menu-item">
-              <i class="fa-solid fa-users" class="menu-icon" alt="Ícone do sobre nós"></i><a href="../cadastroUsuario/login.html" class="menu-link">Sobre nós</a>
+              <i class="fa-solid fa-users" class="menu-icon" alt="Ícone do sobre nós"></i><a href="../sobrenos/sobrenos.html" class="menu-link">Sobre nós</a>
             </li>
          </ul>
        </div>
        </div>
        <div class="projects-section">
-               <img id="banner" src="../imagens/Group 150.svg" alt="">
-               
-            </div>
-    </div>
+        <section class="banners">
+          <img id="banner" src="../imagens/Group 150.svg" alt="">
+          <div class="card">
+          
+           <div class="content">
+            <div id="line"></div>
+             <h1 class="title">WAVETECH</h1>
+             <div class="description">
+              <a href="">Veja dados em tempo real</a>
+              <a href="">Faça relatórios</a>
+              <a href="">Previsão e análise na palma da mão</a>
+             </div>
+       
+           </div>
+          </div>
+          
+         </section>
+              <div class="prim-grafico">
+                <img id="graf-img" src="../imagens/mar.png" alt="">
+                
+                <div class="content-dois">
+                  <h1 id="subtitle">ATENÇÃO!<br /><br> Esses dados irão vencer em</h1>
+                  <p class="date">5 <br /> DIAS</p>
+                </div>
+              </div>
+              <img id="graf-img"  src="../imagens/vento.png" alt="">
+              <iframe title="tempo" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYTgxOTAxYmMtNThiOC00NDVmLWJiNzYtNjllM2M3YjFlY2U5IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+              </div>
+              </div>
+        
     </div> 
+    
+    
     <script>
       class MobileNavbar {
             constructor(mobileMenu, navList, navLinks) {
